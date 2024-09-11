@@ -1,0 +1,141 @@
+@import url('https://fonts.cdnfonts.com/css/monster-hunter');
+
+
+
+* {
+    font-family: 'Monster Hunter', sans-serif;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: antiquewhite;
+    background-image: url(ii61sry7705c1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+.retangulo {
+
+    background-color: rgba(179, 134, 50, 0.726);
+    padding: 0px;
+    border-radius: 0px;
+    text-decoration-color: white;
+    border-radius: 20px;
+    line-height: normal;
+    display: flex;
+    height: auto;
+    width: 55vw;
+    flex-direction: column;
+
+}
+
+.image {
+    padding: 5%;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+.barra {
+
+    padding: 2%;
+    border-radius: 45px;
+    margin-top: 0px;
+    width: 96%;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.video {
+    border-radius: 20px;
+    width: 710px;
+    height: 400px;
+    margin: auto;
+}
+
+
+/* ==================================================== */
+
+.menu {
+    display: flex;
+    background-color: rgba(179, 134, 50, 0.726);
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+    margin-top: ;
+}
+
+.menu li {
+
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(5, 4, 4);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    
+
+}
+
+li a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.submenu{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(179, 134, 50, 0.726);
+    display: none;
+}
+.submenu li a{
+    padding: 10px 20px;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+
+}
+
+.submenu li a:hover {
+    color: #ffffff
+}
